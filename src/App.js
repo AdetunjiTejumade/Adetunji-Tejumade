@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactDOM from 'react-dom';
+import { Component } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from './components/home.js'
+import About from './components/about.js'
+// import NavBar from './components/navBar.js'
+import './output.css';
+
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Hello</h1>
+//     </div>
+//   );
+// }
+
+// const App = () => {
+//   return React.createElement(
+//     "div",
+//     { className: "App"},
+//     React.createElement("h1", {}, "Welcome to the dark side")
+//   );
+// };
+
+
+
+class App extends Component {
+  render() {
+    return (
+    // <Home></Home>
+    <About></About>
+    )
+  }
 }
 
+ReactDOM.render(React.createElement(App), document.getElementById("root"))
 export default App;
