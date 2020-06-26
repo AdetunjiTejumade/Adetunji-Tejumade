@@ -4,3 +4,19 @@
 
 
 @tailwind utilities;
+
+body{
+    background-color: rgb(34, 40, 49);
+}
+.bg-body{
+    background-color: rgb(34, 40, 49);
+  }
+.text-yellow{
+    color: rgb(239, 187, 53);
+}
+.text-yellow-shadow{
+    text-shadow: 0px 1px 7px rgba(239, 187, 57);
+}
+.bg-nav{
+    background: linear-gradient(to right, rgb(47, 45, 35), rgb(40, 49, 62));
+}

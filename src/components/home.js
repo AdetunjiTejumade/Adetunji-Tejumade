@@ -4,7 +4,7 @@ class Home extends React.Component {
   render() {
     return (
 
-      React.createElement('div', { className: 'bg-black px-6' },
+      React.createElement('div', { className: 'bg-body px-6' },
         React.createElement('div', { className: 'text-center flex justify-center items-center h-screen w-100' },
           React.createElement('div', { className: 'text-yellow-600' },
             React.createElement('h1', { className: 'text-4xl' },
@@ -12,10 +12,10 @@ class Home extends React.Component {
             ),
             <NavBar></NavBar>
           ))
-        
+
       )
     )
-      
+
   }
 }
 
