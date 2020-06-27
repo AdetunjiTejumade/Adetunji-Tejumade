@@ -23,10 +23,10 @@ Toggle = () => {
 
 
                 <div className={this.state.toggle ? "overlay": "none"} >
-                    <a href="/" className="closebtn">&times;</a>
+                    <button className="closebtn"  onClick={this.Toggle}>&times;</button>
                     <div className="overlay-content font-extrabold text-3xl">
 
-                        <a href="/"><NavLink to="/" >Home </NavLink></a>
+                        <a href="/"><NavLink to="" >Home </NavLink></a>
                         <a href="/"><NavLink to="/about" >About</NavLink></a>
                         <a href="/"><NavLink to="/works" >Works</NavLink></a>
                         <a href="/"><NavLink to="/contact" >Contact</NavLink></a>

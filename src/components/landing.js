@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Home from './home';
 import About from './about.js';
 import Works from './works'
-import navBar from './navBar';
+import Contact from './contact';
 import {
     BrowserRouter as Router,
     HashRouter,
@@ -17,12 +17,13 @@ import {
 class Landing extends Component {
     render() {
         return (
-            
 
 
 
-                <HashRouter>
-<div>
+
+            <HashRouter>
+                <div>
+                    <Route path="/contact" component={Contact} />
                     <Route path="/about" component={About} />
 
 
@@ -30,9 +31,9 @@ class Landing extends Component {
 
                     <Route exact path="/" component={Home} />
 
-                
-               
-            </div>
+
+
+                </div>
             </HashRouter>
         )
 

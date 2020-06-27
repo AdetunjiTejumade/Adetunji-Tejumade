@@ -47,7 +47,7 @@ body{
     background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     transition: 0.3s;
-    
+
 
 }
 
@@ -59,14 +59,14 @@ body{
     margin-top: 30px;
 }
 
-.overlay a {
+.overlay a, .overlay button {
     display: block;
     color: white;
     padding: 8px;
     transition: 0.3s;
 }
 
-.overlay a:hover,
+.overlay a:hover,.overlay button:hover,.overlay button:focus,
 .overlay a:focus {
     color: rgb(239, 180, 53);
     text-decoration: underline solid;
