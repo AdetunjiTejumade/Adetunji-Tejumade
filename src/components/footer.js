@@ -5,7 +5,8 @@ class Footer extends React.Component {
         return (
             React.createElement('div', { className: 'footer' },
                 React.createElement('div', { className:'social-links'}, 
-                    React.createElement('i', {className:'fa fa-facebook-f'},)
+                    React.createElement('i', {className:'fa fa-facebook-f'},),
+                    React.createElement('i', {className:'fa fa-linkedin'},)
                 )
             )
         )

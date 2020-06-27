@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Header from './landing';
 import Home from './home';
 import About from './about.js';
 import Works from './works'

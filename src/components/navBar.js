@@ -7,16 +7,30 @@ import {
 
 
 class navBar extends Component {
+state = {
+    toggle:false
+}
+Toggle = () => {
+    this.setState({toggle:!this.state.toggle})
+}
+
     render() {
         return (
 
             <HashRouter>
-                <div>
-                    <ul className="inline flex justify-center text-black font-medium">
-                        <li><NavLink to="/about" className="bg-yellow-600 mr-3 px-3">About</NavLink></li>
-                        <li><NavLink to="/works" className="bg-yellow-600 mr-3 px-3">Works</NavLink></li>
-                        <li><NavLink to="/contact" className="bg-yellow-600 mr-3 px-3">Contact</NavLink></li>
-                    </ul>
+
+                <button className="text-white text-xl font-semibold" onClick={this.Toggle}>☰</button>
+
+
+                <div className={this.state.toggle ? "overlay": "none"} >
+                    <a href="/" className="closebtn">&times;</a>
+                    <div className="overlay-content font-extrabold text-3xl">
+
+                        <a href="/"><NavLink to="/" >Home </NavLink></a>
+                        <a href="/"><NavLink to="/about" >About</NavLink></a>
+                        <a href="/"><NavLink to="/works" >Works</NavLink></a>
+                        <a href="/"><NavLink to="/contact" >Contact</NavLink></a>
+                    </div>
                 </div>
             </HashRouter>
         )
