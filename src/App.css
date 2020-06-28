@@ -78,3 +78,20 @@ body{
     right: 45px;
     font-size: 60px;
 }
+
+.contact-hr{
+
+    margin-left: 20px;
+}
+/* .contact p::after{
+    content: " ";
+    margin-left: 2px;
+ 
+    border-right: 2px solid;
+    color: teal;
+    
+} */
+.logo{
+    color: rgb(239, 187, 53); 
+    text-shadow: 0px 1px 7px rgba(239, 187, 57);
+}
