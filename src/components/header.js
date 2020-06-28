@@ -7,7 +7,7 @@ class Header extends React.Component {
         React.createElement('div', { className: 'header flex justify-between' },
           
             React.createElement('div', {},
-              React.createElement('h1', { className: 'text-xl text-yellow font-semibold' }, 'ADETUNJI TEJUMADE'),
+              React.createElement('h1', { className: 'text-xl text-yellow font-semibold logo' }, 'ADETUNJI TEJUMADE'),
             ),
             React.createElement('div', {},
               <NavBar></NavBar>
