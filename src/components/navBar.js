@@ -18,7 +18,7 @@ Toggle = () => {
         return (
 
             <HashRouter>
-
+                <div className="nav-sm">
                 <button className="text-white text-xl font-semibold" onClick={this.Toggle}>☰</button>
 
 
@@ -31,6 +31,16 @@ Toggle = () => {
                         <a href="/"><NavLink to="/works" >Works</NavLink></a>
                         <a href="/"><NavLink to="/contact" >Contact</NavLink></a>
                     </div>
+                </div>
+                </div>
+                <div>
+                    <div className="text-white font-normal nav-lg ">
+                        <a href="/"><NavLink to="" className="mr-4 hover:underline">HOME </NavLink></a>
+                        <a href="/"><NavLink to="/about" className="mr-4">ABOUT</NavLink></a>
+                        <a href="/"><NavLink to="/works" className="mr-4">WORKS</NavLink></a>
+                        <a href="/"><NavLink to="/contact" className="mr-4">CONTACT</NavLink></a>
+                    </div>
+
                 </div>
             </HashRouter>
         )

@@ -95,3 +95,18 @@ body{
     color: rgb(239, 187, 53); 
     text-shadow: 0px 1px 7px rgba(239, 187, 57);
 }
+.nav-lg{
+    display: none;
+}
+@media only screen and (min-width: 768px){
+    .nav-sm{
+        display: none;
+    }
+    .nav-lg{
+        display: block;
+    }
+}
+.nav-lg a:hover{
+    color: rgb(239, 187, 53);
+    text-decoration: underline solid;
+}

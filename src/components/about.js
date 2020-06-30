@@ -7,8 +7,8 @@ class About extends React.Component {
         return (
             React.createElement('div', { className: 'bg-body' },
                 <Header></Header>,
-                React.createElement('div', { className: 'text-white text-center mt-16 px-6' },
-                    React.createElement('h1', { className: 'text-3xl text-yellow' }, "HEY THERE, I'M TEJU- WEB DEVELOPER"),
+                React.createElement('div', { className: 'text-white text-center mt-16 px-6 max-w-xl m-auto' },
+                    React.createElement('h1', { className: 'text-3xl text-yellow' }, "HEY THERE, I'M TEJU- A WEB DEVELOPER"),
                     React.createElement('hr', { className: 'border-2 border-yellow-600 mt-3 mb-3 w-6 m-auto' }),
 
                     React.createElement('div', { className: 'mt-12 text-white' },

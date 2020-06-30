@@ -7,7 +7,8 @@ class Contact extends React.Component {
         return (
             React.createElement('div', {},
                 <Header></Header>,
-                React.createElement('div', { className: "text-white text-center mt-16 px-6" },
+                React.createElement('div', { className:"m-auto max-w-xl"},
+                React.createElement('div', { className: "text-white text-center mt-16 px-6 " },
                     React.createElement('h1', { className: "text-3xl text-yellow" },
                         "LETS' GET IN TOUCH."
                     ),
@@ -33,7 +34,7 @@ class Contact extends React.Component {
                     </div>,
                     <Footer></Footer>)
             )
-        )
+        ))
     }
 }
 
