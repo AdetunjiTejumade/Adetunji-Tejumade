@@ -22,7 +22,7 @@ class Works extends React.Component {
                                 <img src={item_1} alt="portfolio-item"></img>
                             ),
                             React.createElement('div', { className: "description p-3" },
-                                <p>This a one of the project in worked on in the front-end mentor challenge. Built using Tailwind css</p>
+                                <p>This is one of the project i worked on in the front-end mentor challenge. Built using Tailwind css</p>
                             )
                         ),
                         React.createElement('div', { className: "item shadow-xl mt-6 " },
@@ -39,7 +39,10 @@ class Works extends React.Component {
 
                         ))
                     ),
-                    <Footer></Footer>
+                    <div className="mb-6">
+                         <Footer></Footer>
+                    </div>
+                   
 
                 )
             )

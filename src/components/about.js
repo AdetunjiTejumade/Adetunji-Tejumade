@@ -12,11 +12,14 @@ class About extends React.Component {
                     React.createElement('hr', { className: 'border-2 border-yellow-600 mt-3 mb-3 w-6 m-auto' }),
 
                     React.createElement('div', { className: 'mt-12 text-white' },
-                        React.createElement('p', { className: '' }, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum dolores impedit, consectetur ullam repellendus. Explicabo quae odit culpa, eveniet perferendis quos et deleniti temporibus, adipisc maxime libero dolorum porro accusantium sint rem vitae nostrum dolor excepturi aliquam unde cupiditate!'
+                        React.createElement('p', { className: '' }, "I'm a 17 years old developer from lagos nigeria, I love solving problems and implementing great product design "
                         ),
-
+                        React.createElement('p', {}, "I was awarded a scholarship to study to full-stack development at openclassroms by Facebook due to my perfomance in the facebook developer circles training."),
+                        React.createElement('p', {}, "I'm aLso in the phase one of the google africa developer scholarship.")
                     ),
-                    <Footer></Footer>
+                    <div className="mt-20">
+                        <Footer></Footer>
+                    </div>
 
                 )
             )
