@@ -5,9 +5,7 @@ import About from './about.js';
 import Works from './works'
 import Contact from './contact';
 import {
-    BrowserRouter as Router,
     HashRouter,
-    Switch,
     Route,
 
 } from "react-router-dom";
