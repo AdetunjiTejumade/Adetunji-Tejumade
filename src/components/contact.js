@@ -18,7 +18,7 @@ class Contact extends React.Component {
                     ),
                     React.createElement('div', { className: "contact px-6 mt-16 text-center" },
                         <div className="">
-                            {React.createElement('a', { className: "font-bold text-2xl text-yellow ", href: "https://linkedin.com/in/tejumade-adetunji" }, 'LINKEDIN')}
+                            {React.createElement('a', { className: "font-bold text-2xl text-yellow ", href: "https://www.linkedin.com/in/tejumade-adetunji-b1828a173" }, 'LINKEDIN')}
                             {/* <hr className="contact-hr"></hr> */}
                             {/* <a href="https://linkedin.com/in/tejumade-adetunji" className="ml-3 font-semibold">linkedin.com/in/tejumade-adetunji</a> */}
                         </div>,
@@ -28,7 +28,7 @@ class Contact extends React.Component {
                             {/* <a href="https://github.com/AdetunjiTejumade" className="ml-3 font-semibold">github.com/AdetunjiTejumade</a> */}
                         </div>,
                         <div className="mt-12">
-                            {React.createElement('a', { className: "font-bold text-2xl text-yellow", href: "https://twitter.com/@tejumade__/" }, 'TWITTER')}
+                            {React.createElement('a', { className: "font-bold text-2xl text-yellow", href: "https://twitter.com/Tejumade_" }, 'TWITTER')}
                             {/* <hr className="contact-hr"></hr> */}
                             {/* <a href="https://twitter.com/@tejumade__/" className="ml-3 font-semibold">twitter.com/@tejumade__/</a> */}
                         </div>,
