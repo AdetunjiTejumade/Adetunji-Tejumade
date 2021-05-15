@@ -1,21 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Component } from 'react'
+import React from "react";
+import ReactDOM from "react-dom";
+import { Component } from "react";
 
-import './output.css';
-import './App.css';
+import "./output.css";
+import "./App.css";
 
-import Landing from './components/landing'
-
+import Routes from "./components/routes";
+import { BrowserRouter  } from 'react-router-dom'
+import { defineCustomElements } from 'shooting-stars/dist/loader';
 class App extends Component {
   render() {
     return (
-          <Landing></Landing>        
+      <BrowserRouter>
+        <Routes />
+      </BrowserRouter>
     );
-
   }
-
 }
 
-ReactDOM.render(React.createElement(App), document.getElementById("root"))
+ReactDOM.render(React.createElement(App), document.getElementById("root"));
+defineCustomElements(window);
 export default App;
