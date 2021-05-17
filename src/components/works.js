@@ -7,10 +7,11 @@ import Footer from "./footer";
 
 function Works() {
   return (
-    <div>
+    <div >
       <Header></Header>
+      <div className="">
       <div className="mt-16 px-6 m-auto max-w-xl">
-        <div>
+        
           <h1 className="text-center text-3xl text-yellow">MY WORKS</h1>
           <div className="works mt-12 text-white font-normal">
             <div className="item shadow-xl">
@@ -41,10 +42,11 @@ function Works() {
               </a>
             </div>
           </div>
-        </div>
+        
       </div>
       <div className="mb-6">
         <Footer></Footer>
+      </div>
       </div>
     </div>
   );
