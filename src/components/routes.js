@@ -1,22 +1,23 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 
 import Home from "./home";
 import About from "./about.js";
 import Works from "./works";
 import Contact from "./contact";
+import WorkDetail from "./workDetail.js"
 
 import { Switch, Route, useLocation } from "react-router-dom";
 
 function Routes() {
-  const location = useLocation()
+  const location = useLocation();
   useEffect(() => {
     console.log(location.pathname);
-    if(location.pathname == "/"){
-        document.body.style.overflow= "hidden";
-    }else{
-      document.body.style.overflow= "unset";
+    if (location.pathname == "/") {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
     }
-  }, [location])
+  }, [location]);
   return (
     <Switch>
       <Route path="/contact">
@@ -24,7 +25,7 @@ function Routes() {
       </Route>
 
       <Route path="/about">
-        <About />
+        <WorkDetail />
       </Route>
 
       <Route path="/works">

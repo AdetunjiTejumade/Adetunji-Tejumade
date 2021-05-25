@@ -7,11 +7,10 @@ import Footer from "./footer";
 
 function Works() {
   return (
-    <div >
+    <div>
       <Header></Header>
       <div className="">
-      <div className="mt-16 px-6 m-auto max-w-xl">
-        
+        <div className="mt-16 px-6 m-auto max-w-xl">
           <h1 className="text-center text-3xl text-yellow">MY WORKS</h1>
           <div className="works mt-12 text-white font-normal">
             <div className="item shadow-xl">
@@ -19,10 +18,16 @@ function Works() {
                 <img src={item_1} alt="portfolio-item"></img>
               </div>
               <div className="description p-3">
-                <p>
+                <div>
+                  <h3 className="font-bold text-orange-500">Move and Groove</h3>
+                </div>
+                <p className="my-2">
                   This is one of the project i worked on in the front-end mentor
                   challenge. Built using Tailwind css
                 </p>
+                <a className="block font-bold text-orange-500">
+                  View Project {">"}
+                </a>
               </div>
             </div>
             <div className="item shadow-xl mt-6">
@@ -42,11 +47,10 @@ function Works() {
               </a>
             </div>
           </div>
-        
-      </div>
-      <div className="mb-6">
-        <Footer></Footer>
-      </div>
+        </div>
+        <div className="mb-6">
+          <Footer></Footer>
+        </div>
       </div>
     </div>
   );

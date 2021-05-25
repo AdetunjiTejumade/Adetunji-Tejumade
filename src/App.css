@@ -95,7 +95,7 @@ body{
     color: teal;
     
 } */
-.logo{
+.logo:hover{
     color: rgb(239, 187, 53); 
     text-shadow: 0px 1px 7px rgba(239, 187, 57);
 }
