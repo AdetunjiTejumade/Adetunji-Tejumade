@@ -20,17 +20,17 @@ function Home() {
           <div className="mt-6">
             <ul className="inline flex justify-center text-black font-medium">
               <li>
-                <Link to="/about" className="bg-yellow-600 mr-3 px-3">
+                <Link to="/about" className="bg-yellow-600 mr-3 px-5 py-2 shadow-2xl">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/works" className="bg-yellow-600 mr-3 px-3">
+                <Link to="/works" className="bg-yellow-600 mr-3 px-5 py-2">
                   Works
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="bg-yellow-600 mr-3 px-3">
+                <Link to="/contact" className="bg-yellow-600 mr-3 px-5 py-2">
                   Contact
                 </Link>
               </li>

@@ -31,19 +31,19 @@ function NavBar() {
       </div>
 
       <div className="text-white font-normal nav-lg ">
-        <Link to="" className="mr-4 hover:underline">
+        <Link to="" className="mr-5 hover:underline">
           HOME
         </Link>
 
-        <Link to="/about" className="mr-4">
+        <Link to="/about" className="mr-5">
           ABOUT
         </Link>
 
-        <Link to="/works" className="mr-4">
+        <Link to="/works" className="mr-5">
           WORKS
         </Link>
 
-        <Link to="/contact" className="mr-4">
+        <Link to="/contact" className="mr-5">
           CONTACT
         </Link>
       </div>
