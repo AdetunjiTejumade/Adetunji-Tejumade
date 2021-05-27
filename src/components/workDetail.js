@@ -9,8 +9,8 @@ function WorkDetail() {
     <>
       <Header />
 
-      <div className="max-w-4xl mx-auto pt-20">
-        <h1 className="text-gray-200 font-bold text-3xl py-3">
+      <div className="max-w-4xl mx-auto pt-20 lato px-6">
+        <h1 className="text-gray-200 font-bold text-3xl py-3 montserrat">
           Helping hands volunteering platform
         </h1>
         <p className="text-gray-400">
@@ -19,16 +19,14 @@ function WorkDetail() {
           adipisci quasi sunt aliquam, eius quos aliquid reprehenderit, ut
           dignissimos harum!
         </p>
-        {/* uppercase my-6 bg-orange-500 */}
-        <button className="">
-          View the website
-        </button>
+        {/* uppercase  */}
+        <button className="text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</button>
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
           <img src={item_1} alt="portfolio-item" className="w-full" />
         </div>
         <section className="">
-          <h1 className="capitalize text-3xl font-bold text-gray-200 my-3">
+          <h1 className="capitalize text-3xl font-bold text-gray-200 my-3 montserrat">
             Techcnical bits{" "}
           </h1>
 
@@ -50,7 +48,7 @@ function WorkDetail() {
           </div>
         </section>
         <section className="">
-          <h1 className="capitalize text-3xl font-bold text-gray-200 my-3">
+          <h1 className="capitalize text-3xl font-bold text-gray-200 my-3 montserrat">
             Technologies{" "}
           </h1>
 
@@ -60,12 +58,12 @@ function WorkDetail() {
               project
             </p>
             <hr className="my-2" />
-            <ul>
-              <li className="list-disc">Ruby on Rails</li>
-              <li className="list-disc">React</li>
-              <li className="list-disc">Html</li>
-              <li className="list-disc">Css</li>
-              <li className="list-disc">Heroku</li>
+            <ul className="list-circle">
+              <li>Ruby on Rails</li>
+              <li>React</li>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Heroku</li>
             </ul>
           </div>
         </section>

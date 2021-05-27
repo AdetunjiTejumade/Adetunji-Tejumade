@@ -30,7 +30,7 @@ function NavBar() {
         </div>
       </div>
 
-      <div className="text-white font-normal nav-lg ">
+      <div className="text-white font-normal nav-lg font-poppins">
         <Link to="" className="mr-5 hover:underline">
           HOME
         </Link>

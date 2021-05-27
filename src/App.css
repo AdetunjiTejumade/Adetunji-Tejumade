@@ -5,6 +5,9 @@
 
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 body{
     background-color: rgb(34, 40, 49);
     /* overflow: unset; */
@@ -31,14 +34,24 @@ body{
 .hide-nav{
     width: 100%;
 }
-
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
 /* nav menu */
 .lg-nav a:hover,
 .lg-nav a:focus {
     color: rgb(239, 187, 53);
     text-decoration: underline solid;
 }
-
+.list-circle{
+    list-style: circle;
+}
 /* overlay nav */
 .overlay {
     height: 100%;
