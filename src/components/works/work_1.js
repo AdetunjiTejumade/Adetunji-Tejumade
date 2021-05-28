@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./header";
-import Footer from "./footer";
+import Header from "../header";
+import Footer from "../footer";
 
-import item_1 from "../images/portfolio/img_01a.png";
+import item_1 from "../../images/portfolio/img_01a.png";
 
-function WorkDetail() {
+function HelpingHands() {
   return (
     <>
       <Header />
@@ -73,4 +73,4 @@ function WorkDetail() {
     </>
   );
 }
-export default WorkDetail;
+export default HelpingHands;

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Header from "./header";
 
 import item_1 from "../images/portfolio/img_01a.png";
@@ -15,32 +17,61 @@ function Works() {
           <div className="works mt-12 text-white font-normal">
             <div className="item shadow-xl">
               <div>
+                <h3 className="font-bold text-orange-500 uppercase py-2">
+                  Helping Hands
+                </h3>
+              </div>
+              <div>
                 <img src={item_1} alt="portfolio-item"></img>
               </div>
-              <div className="description p-3">
-                <div>
-                  <h3 className="font-bold text-orange-500">Move and Groove</h3>
-                </div>
-                <p className="my-2">
-                  This is one of the project i worked on in the front-end mentor
-                  challenge. Built using Tailwind css
-                </p>
-                <a className="block font-bold text-orange-500">
+              <div className="description p-3 flex justify-between">
+                <Link
+                  to="/helping_hands"
+                  className="block font-bold text-orange-500"
+                >
                   View Project {">"}
-                </a>
+                </Link>
               </div>
             </div>
+
             <div className="item shadow-xl mt-6">
+              <div>
+                <h3 className="font-bold text-orange-500 uppercase py-2">
+                  Move and groove
+                </h3>
+              </div>
               <div>
                 <img src={item_2} alt="portfolio-item"></img>
               </div>
-              <div className="description p-3">
-                <p>
-                  This is a website for WATCH IT OUTSIDE BOSTON outdoor event,
-                  it allows users to make reservations for the event
-                </p>
+              <div className="description p-3 flex justify-between">
+                <Link
+                  to="move_and_groove"
+                  className="block font-bold text-orange-500"
+                >
+                  View Project {">"}
+                </Link>
               </div>
             </div>
+
+            <div className="item shadow-xl mt-6">
+              <div>
+                <h3 className="font-bold text-orange-500 uppercase py-2">
+                  BOULDER BIKE TOUR
+                </h3>
+              </div>
+              <div>
+                <img src={item_2} alt="portfolio-item"></img>
+              </div>
+              <div className="description p-3 flex justify-between">
+                <Link
+                  to="boulder_bike_tour"
+                  className="block font-bold text-orange-500"
+                >
+                  View Project {">"}
+                </Link>
+              </div>
+            </div>
+
             <div className="mt-12 text-center mb-12">
               <a href="https://github.com/AdetunjiTejumade">
                 OTHER PROJECTS ON GITHUB
