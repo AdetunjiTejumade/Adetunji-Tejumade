@@ -30,7 +30,7 @@ function Home() {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="bg-yellow-600 mr-3 px-5 py-2">
+                <Link to="/contact" className="bg-yellow-600 px-5 py-2">
                   Contact
                 </Link>
               </li>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 import Home from "./home";
 import About from "./about.js";
@@ -13,8 +13,7 @@ import { Switch, Route, useLocation } from "react-router-dom";
 function Routes() {
   const location = useLocation();
   useEffect(() => {
-    console.log(location.pathname);
-    if (location.pathname == "/") {
+    if (location.pathname === "/") {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "unset";
