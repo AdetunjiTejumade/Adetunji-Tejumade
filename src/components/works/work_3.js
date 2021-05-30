@@ -14,13 +14,13 @@ function BoulderBikeTour() {
           Helping hands volunteering platform
         </h1>
         <p className="text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          atque, facere natus nemo doloremque quas. Accusamus iusto odio aperiam
-          adipisci quasi sunt aliquam, eius quos aliquid reprehenderit, ut
-          dignissimos harum!
+          Built this demo app for a "client" to display different information
+          and activities around a bike racing event.
         </p>
         {/* uppercase  */}
-        <button className="text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</button>
+        <button className="text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">
+          View the website
+        </button>
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
           <img src={item_1} alt="portfolio-item" className="w-full" />
@@ -32,18 +32,10 @@ function BoulderBikeTour() {
 
           <div className="text-gray-400">
             <p>
-              In this project I acted as part of a small group of misfits
-              hell-bent on making cool stuff.
-            </p>
-            <hr className="my-2" />
-            <p>
-              At the time I was still using BackboneJS for the client side
-              routing, although the views were renderd directly in the Microsoft
-              C# MVC's back-end. The client side javascript was entirely
-              modularized with RequireJS, which is awesome for code maintainance
-              and scalability. That was probably the biggest challange of the
-              project as it has a huge number of different templates, to make
-              everything run smoothly and cohesively was a huge win
+              The frontend uses react which allows me to manage different part
+              of the site as reuseable components and i used tailwindcss for the
+              styling, using tailwindcss allowed me to work faster. The contest
+              page form is powered by a rails api which stores user entries in a database.
             </p>
           </div>
         </section>

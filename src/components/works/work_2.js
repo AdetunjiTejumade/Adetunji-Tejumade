@@ -14,10 +14,7 @@ function MoveAndGroove() {
           Helping hands volunteering platform
         </h1>
         <p className="text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          atque, facere natus nemo doloremque quas. Accusamus iusto odio aperiam
-          adipisci quasi sunt aliquam, eius quos aliquid reprehenderit, ut
-          dignissimos harum!
+         I built this app to help me track my actives, then it evolved into an exercise tracker allowing users to track their exercising activities.
         </p>
         {/* uppercase  */}
         <button className="text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</button>
@@ -31,19 +28,13 @@ function MoveAndGroove() {
           </h1>
 
           <div className="text-gray-400">
-            <p>
+            {/* <p>
               In this project I acted as part of a small group of misfits
               hell-bent on making cool stuff.
             </p>
-            <hr className="my-2" />
+            <hr className="my-2" /> */}
             <p>
-              At the time I was still using BackboneJS for the client side
-              routing, although the views were renderd directly in the Microsoft
-              C# MVC's back-end. The client side javascript was entirely
-              modularized with RequireJS, which is awesome for code maintainance
-              and scalability. That was probably the biggest challange of the
-              project as it has a huge number of different templates, to make
-              everything run smoothly and cohesively was a huge win
+             This is one of the first Rails site i made, it helped me grasp the basics of rails.The backend is a crud system which allows users to make changes to their records easily.
             </p>
           </div>
         </section>
@@ -60,7 +51,6 @@ function MoveAndGroove() {
             <hr className="my-2" />
             <ul className="list-circle">
               <li>Ruby on Rails</li>
-              <li>React</li>
               <li>Html</li>
               <li>Css</li>
               <li>Heroku</li>
