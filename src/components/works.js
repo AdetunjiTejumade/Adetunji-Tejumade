@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import Header from "./header";
 
-import item_1 from "../images/portfolio/img_01a.png";
-import item_2 from "../images/portfolio/item_2.jpg";
+import item_1 from "../images/img_01.png";
+import item_3 from "../images/img_03.png";
 import Footer from "./footer";
 
 function Works() {
@@ -37,11 +37,11 @@ function Works() {
             <div className="item shadow-xl mt-6">
               <div>
                 <h3 className="font-bold text-orange-500 uppercase py-2">
-                  Move and groove
+                  Watch it outside
                 </h3>
               </div>
               <div>
-                <img src={item_2} alt="portfolio-item"></img>
+                <img src={item_3} alt="portfolio-item"></img>
               </div>
               <div className="description p-3 flex justify-between">
                 <Link
@@ -60,7 +60,7 @@ function Works() {
                 </h3>
               </div>
               <div>
-                <img src={item_2} alt="portfolio-item"></img>
+                <img src={item_3} alt="portfolio-item"></img>
               </div>
               <div className="description p-3 flex justify-between">
                 <Link
