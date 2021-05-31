@@ -68,8 +68,7 @@ function MoveAndGroove() {
               project
             </p>
             <hr className="my-2" />
-            <ul className="list-circle">
-              
+            <ul className="list-circle px-5">
               <li>Html</li>
               <li>Css</li>
               <li>Bootstrap</li>

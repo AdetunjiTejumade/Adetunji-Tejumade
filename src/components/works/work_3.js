@@ -70,7 +70,7 @@ function BoulderBikeTour() {
               project
             </p>
             <hr className="my-2" />
-            <ul className="list-circle">
+            <ul className="list-circle px-5">
               <li>Ruby on Rails</li>
               <li>React</li>
               <li>Html</li>
