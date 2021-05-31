@@ -12,9 +12,9 @@ body{
     background-color: rgb(34, 40, 49);
     /* overflow: unset; */
 }
-/* .homepage{
-    overflow: scroll ;
-} */
+a{
+    transition: color 0.3s;
+}
 .bg-body{
     background-color: rgb(34, 40, 49);
   }

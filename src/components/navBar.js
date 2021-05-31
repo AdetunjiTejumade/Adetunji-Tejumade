@@ -31,7 +31,7 @@ function NavBar() {
       </div>
 
       <div className="text-white font-normal nav-lg font-poppins">
-        <Link to="" className="mr-5 hover:underline">
+        <Link to="" className="mr-5">
           HOME
         </Link>
 
