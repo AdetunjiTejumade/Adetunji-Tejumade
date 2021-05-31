@@ -1,8 +1,15 @@
 import React from "react";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 import Header from "../header";
 import Footer from "../footer";
 
-import item_1 from "../../images/portfolio/img_01a.png";
+// import img_02 from "../../images/img_02.png";
+import img_02a from "../../images/img_02a.png";
+import img_02b from "../../images/img_02b.png";
+import img_02c from "../../images/img_02c.png";
 
 function BoulderBikeTour() {
   return (
@@ -23,7 +30,20 @@ function BoulderBikeTour() {
         </button>
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
-          <img src={item_1} alt="portfolio-item" className="w-full" />
+        <Carousel dynamicHeight={false} showThumbs={false}>
+            {/* <div>
+              <img src={img_02} />
+            </div> */}
+            <div>
+              <img src={img_02a} />
+            </div>
+            <div className="">
+              <img src={img_02b} className=""/>
+            </div>
+            <div className="">
+              <img src={img_02c} className=""/>
+            </div>
+          </Carousel>
         </div>
         <section className="">
           <h1 className="capitalize text-3xl font-bold text-gray-200 my-3 montserrat">

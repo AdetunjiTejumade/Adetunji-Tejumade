@@ -1,8 +1,14 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 import Header from "../header";
 import Footer from "../footer";
 
-import item_1 from "../../images/portfolio/img_01a.png";
+import img_03 from "../../images/img_03.png";
+import img_03a from "../../images/img_03a.png";
+import img_03b from "../../images/img_03b.png";
+import img_03c from "../../images/img_03c.png";
 
 function MoveAndGroove() {
   return (
@@ -20,7 +26,20 @@ function MoveAndGroove() {
         <button className="text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</button>
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
-          <img src={item_1} alt="portfolio-item" className="w-full" />
+        <Carousel dynamicHeight={false} showThumbs={false}>
+            <div>
+              <img src={img_03} />
+            </div>
+            <div>
+              <img src={img_03a} />
+            </div>
+            <div className="">
+              <img src={img_03b} className=""/>
+            </div>
+            <div className="">
+              <img src={img_03c} className=""/>
+            </div>
+          </Carousel>
         </div>
         <section className="">
           <h1 className="capitalize text-3xl font-bold text-gray-200 my-3 montserrat">
