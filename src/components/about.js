@@ -13,8 +13,8 @@ function About() {
         <hr className="border-2 border-yellow-600 mt-3 mb-3 w-6 m-auto" />
         <div className="mt-12 text-white">
           <p>
-            I'm a 17 years old developer from lagos nigeria, I love solving
-            problems and implementing great product design
+            I started coding at the age of 13
+            {/* TODO update about */}
           </p>
           <p>
             I was awarded a scholarship to study to full-stack development at

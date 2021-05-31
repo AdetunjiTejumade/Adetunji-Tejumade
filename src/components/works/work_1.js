@@ -1,14 +1,21 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
+
 import Header from "../header";
 import Footer from "../footer";
 
-import item_1 from "../../images/portfolio/img_01a.png";
+import img_01 from "../../images/img_01.png";
+import img_01a from "../../images/img_01a.png";
+import img_01b from "../../images/img_01b.png";
+import img_01c from "../../images/img_01c.png";
 
 function HelpingHands() {
+
   return (
     <>
       <Header />
-
       <div className="max-w-4xl mx-auto pt-20 lato px-6">
         <h1 className="text-gray-200 font-bold text-3xl py-3 montserrat">
           Helping hands volunteering platform
@@ -23,7 +30,21 @@ function HelpingHands() {
         </button>
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
-          <img src={item_1} alt="portfolio-item" className="w-full" />
+          <Carousel dynamicHeight={false} showThumbs={false}>
+            <div>
+              <img src={img_01} />
+            </div>
+            <div>
+              <img src={img_01a} />
+            </div>
+            <div className="">
+              <img src={img_01b} className=""/>
+            </div>
+            <div className="">
+              <img src={img_01c} className=""/>
+            </div>
+          </Carousel>
+          {/* <img src={img_01} alt="portfolio-item" className="w-full" /> */}
         </div>
         <section className="">
           <h1 className="capitalize text-3xl font-bold text-gray-200 my-3 montserrat">
