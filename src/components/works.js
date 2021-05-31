@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import Header from "./header";
 
 import item_1 from "../images/img_01.png";
-import item_3 from "../images/img_03.png";
+import item_2 from "../images/img_03.png";
+import item_3 from "../images/img_02.png";
 import Footer from "./footer";
 
 function Works() {
@@ -41,7 +42,7 @@ function Works() {
                 </h3>
               </div>
               <div>
-                <img src={item_3} alt="portfolio-item"></img>
+                <img src={item_2} alt="portfolio-item"></img>
               </div>
               <div className="description p-3 flex justify-between">
                 <Link
@@ -74,7 +75,7 @@ function Works() {
 
             <div className="mt-12 text-center mb-12">
               <a href="https://github.com/AdetunjiTejumade">
-                OTHER PROJECTS ON GITHUB
+                OTHER PROJECTS ON GITHUB {">>"}
               </a>
             </div>
           </div>

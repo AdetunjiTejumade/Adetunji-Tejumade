@@ -17,10 +17,10 @@ function MoveAndGroove() {
 
       <div className="max-w-4xl mx-auto pt-20 lato px-6">
         <h1 className="text-gray-200 font-bold text-3xl py-3 montserrat">
-          Helping hands volunteering platform
+          Watch it outside
         </h1>
         <p className="text-gray-400">
-         I built this app to help me track my actives, then it evolved into an exercise tracker allowing users to track their exercising activities.
+        This is website for an outdoor film festival. 
         </p>
         {/* uppercase  */}
         <button className="text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</button>
@@ -53,7 +53,7 @@ function MoveAndGroove() {
             </p>
             <hr className="my-2" /> */}
             <p>
-             This is one of the first Rails site i made, it helped me grasp the basics of rails.The backend is a crud system which allows users to make changes to their records easily.
+             On this project i used bootstrap utilities which i found more flexible and easier to use than than predefined components.
             </p>
           </div>
         </section>
@@ -69,10 +69,11 @@ function MoveAndGroove() {
             </p>
             <hr className="my-2" />
             <ul className="list-circle">
-              <li>Ruby on Rails</li>
+              
               <li>Html</li>
               <li>Css</li>
-              <li>Heroku</li>
+              <li>Bootstrap</li>
+              <li>Netlify</li>
             </ul>
           </div>
         </section>

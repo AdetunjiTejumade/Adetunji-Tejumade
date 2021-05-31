@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 import Header from "../header";
 import Footer from "../footer";
 
-// import img_02 from "../../images/img_02.png";
+import img_02 from "../../images/img_02.png";
 import img_02a from "../../images/img_02a.png";
 import img_02b from "../../images/img_02b.png";
 import img_02c from "../../images/img_02c.png";
@@ -31,9 +31,9 @@ function BoulderBikeTour() {
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
         <Carousel dynamicHeight={false} showThumbs={false}>
-            {/* <div>
+            <div>
               <img src={img_02} />
-            </div> */}
+            </div>
             <div>
               <img src={img_02a} />
             </div>
