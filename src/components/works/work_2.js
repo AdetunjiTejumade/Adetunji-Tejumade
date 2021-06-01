@@ -23,7 +23,7 @@ function MoveAndGroove() {
         This is website for an outdoor film festival. 
         </p>
         {/* uppercase  */}
-        <a href="https://watch-it-outside.netlify.app/" className="inline-block transition-all center text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</a>
+        <a href="https://watch-it-outside.netlify.app/" target="_blank" rel="noopener" className="inline-block transition-all center text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</a>
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
         <Carousel dynamicHeight={false} showThumbs={false}>
