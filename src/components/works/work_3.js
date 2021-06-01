@@ -28,7 +28,7 @@ function BoulderBikeTour() {
         <a href="https://boulder-bike-tour-app.herokuapp.com/" target="_blank" rel="noopener" className="inline-block transition-all center text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</a>
         {/* TODO use awesome silider for the images */}
         <div className="mb-6">
-        <Carousel dynamicHeight={false} showThumbs={false}>
+        <Carousel dynamicHeight={false} showThumbs={false} autoPlay={true}>
             <div>
               <img src={img_02}  alt={"A screenshot of the project"} />
             </div>
