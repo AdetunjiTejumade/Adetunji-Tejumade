@@ -16,7 +16,7 @@ function NavBar() {
           ☰
         </button>
 
-        <div className={toggle ? "overlay" : "none"}>
+        <div className={toggle ? "overlay w-full" : "overlay w-0"}>
           <button className="closebtn" onClick={Toggle}>
             &times;
           </button>
