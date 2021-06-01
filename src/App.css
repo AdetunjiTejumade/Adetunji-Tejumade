@@ -15,6 +15,10 @@ body{
 a{
     transition: color 0.3s;
 }
+p{
+    margin: 0 0 1.71rem;
+    line-height: 1.6;
+}
 .bg-body{
     background-color: rgb(34, 40, 49);
   }
