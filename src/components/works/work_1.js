@@ -32,16 +32,16 @@ function HelpingHands() {
         <div className="mb-6">
           <Carousel dynamicHeight={false} showThumbs={false}>
             <div>
-              <img src={img_01} />
+              <img src={img_01} alt="A screenshot of the project"/>
             </div>
             <div>
-              <img src={img_01a} />
+              <img src={img_01a} alt="A screenshot of the project"/>
             </div>
             <div className="">
-              <img src={img_01b} className=""/>
+              <img src={img_01b} alt="A screenshot of the project"/>
             </div>
             <div className="">
-              <img src={img_01c} className=""/>
+              <img src={img_01c} alt="A screenshot of the project"/>
             </div>
           </Carousel>
           {/* <img src={img_01} alt="portfolio-item" className="w-full" /> */}

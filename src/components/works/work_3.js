@@ -32,16 +32,16 @@ function BoulderBikeTour() {
         <div className="mb-6">
         <Carousel dynamicHeight={false} showThumbs={false}>
             <div>
-              <img src={img_02} />
+              <img src={img_02}  alt={"A screenshot of the project"} />
             </div>
             <div>
-              <img src={img_02a} />
+              <img src={img_02a} alt={"A screenshot of the project"} />
             </div>
             <div className="">
-              <img src={img_02b} className=""/>
+              <img src={img_02b} alt={"A screenshot of the project"} />
             </div>
             <div className="">
-              <img src={img_02c} className=""/>
+              <img src={img_02c} alt={"A screenshot of the project"}  />
             </div>
           </Carousel>
         </div>

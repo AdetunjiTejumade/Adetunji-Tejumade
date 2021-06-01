@@ -28,16 +28,16 @@ function MoveAndGroove() {
         <div className="mb-6">
         <Carousel dynamicHeight={false} showThumbs={false}>
             <div>
-              <img src={img_03} />
+              <img src={img_03} alt="A screenshot of the project"/>
             </div>
             <div>
-              <img src={img_03a} />
+              <img src={img_03a} alt="A screenshot of the project"/>
             </div>
             <div className="">
-              <img src={img_03b} className=""/>
+              <img src={img_03b} alt="A screenshot of the project"/>
             </div>
             <div className="">
-              <img src={img_03c} className=""/>
+              <img src={img_03c} alt="A screenshot of the project"/>
             </div>
           </Carousel>
         </div>
