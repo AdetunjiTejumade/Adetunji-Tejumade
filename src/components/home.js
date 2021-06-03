@@ -18,7 +18,7 @@ function Home() {
           </h1>
 
           <div className="mt-6">
-            <ul className="inline flex justify-center text-black font-medium">
+            <ul className="inline flex justify-center text-black font-medium uppercase">
               <li>
                 <Link to="/about" className="bg-yellow-600 mr-3 px-5 py-2 shadow-2xl">
                   About

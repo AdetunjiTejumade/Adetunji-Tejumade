@@ -21,10 +21,10 @@ function NavBar() {
             &times;
           </button>
           <div className="overlay-content font-extrabold text-3xl">
-            <Link to="">Home </Link>
-            <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="" onClick={Toggle}>Home </Link>
+            <Link to="/about" onClick={Toggle}>About</Link>
+            <Link to="/projects" onClick={Toggle}>Projects</Link>
+            <Link to="/contact" onClick={Toggle}>Contact</Link>
             {/* TODO change font type */}
           </div>
         </div>
