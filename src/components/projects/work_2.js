@@ -32,7 +32,7 @@ function MoveAndGroove() {
           View the website
         </a>
         <div className="mb-6">
-          <Carousel dynamicHeight={false} showThumbs={false} autoPlay={true} infiniteLoop={true} showStatus={false} >
+          <Carousel dynamicHeight={false} showThumbs={false} autoPlay={true} infiniteLoop={true} showStatus={false}>
             <div>
               <img src={img_03} alt="A screenshot of the project" />
             </div>
