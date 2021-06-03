@@ -25,7 +25,6 @@ function NavBar() {
             <Link to="/about" onClick={Toggle}>About</Link>
             <Link to="/projects" onClick={Toggle}>Projects</Link>
             <Link to="/contact" onClick={Toggle}>Contact</Link>
-            {/* TODO change font type */}
           </div>
         </div>
       </div>

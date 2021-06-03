@@ -74,14 +74,18 @@ function Projects() {
             </div>
 
             <div className="mt-12 text-center mb-12">
-              <a href="https://github.com/AdetunjiTejumade">
+              <a
+                href="https://github.com/AdetunjiTejumade"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 OTHER PROJECTS ON GITHUB {">>"}
               </a>
             </div>
           </div>
         </div>
         <div className="mb-6">
-          <Footer></Footer>
+          <Footer />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from "react-responsive-carousel";
 
 import Header from "../header";
 import Footer from "../footer";
@@ -20,24 +20,30 @@ function MoveAndGroove() {
           Watch it outside
         </h1>
         <p className="text-gray-400">
-        This is website for an outdoor film festival. 
+          This is website for an outdoor film festival.
         </p>
         {/* uppercase  */}
-        <a href="https://watch-it-outside.netlify.app/" target="_blank" rel="noopener noreferrer" className="inline-block transition-all center text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold">View the website</a>
-        {/* TODO use awesome silider for the images */}
+        <a
+          href="https://watch-it-outside.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block transition-all center text-orange-500 my-6 px-3 py-2 hover:bg-orange-500 hover:text-white font-bold"
+        >
+          View the website
+        </a>
         <div className="mb-6">
-        <Carousel dynamicHeight={false} showThumbs={false} autoPlay={true}>
+          <Carousel dynamicHeight={false} showThumbs={false} autoPlay={true}>
             <div>
-              <img src={img_03} alt="A screenshot of the project"/>
+              <img src={img_03} alt="A screenshot of the project" />
             </div>
             <div>
-              <img src={img_03a} alt="A screenshot of the project"/>
+              <img src={img_03a} alt="A screenshot of the project" />
             </div>
             <div className="">
-              <img src={img_03b} alt="A screenshot of the project"/>
+              <img src={img_03b} alt="A screenshot of the project" />
             </div>
             <div className="">
-              <img src={img_03c} alt="A screenshot of the project"/>
+              <img src={img_03c} alt="A screenshot of the project" />
             </div>
           </Carousel>
         </div>
@@ -53,7 +59,8 @@ function MoveAndGroove() {
             </p>
             <hr className="my-2" /> */}
             <p>
-             On this project i used bootstrap utilities which i found more flexible and easier to use than than predefined components.
+              On this project i used bootstrap utilities which i found more
+              flexible and easier to use than than predefined components.
             </p>
           </div>
         </section>

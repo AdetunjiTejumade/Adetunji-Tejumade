@@ -15,7 +15,6 @@ function About() {
           <p>
             I am an introvert/extrovert(depends on who you ask) who loves trying
             new technologies and building cool stuff with them.
-            {/* TODO update about */}
           </p>
           <p>
             My first experience with programming was when I was 13, I was
