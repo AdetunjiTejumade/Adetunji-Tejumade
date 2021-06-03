@@ -18,30 +18,30 @@ function About() {
             {/* TODO update about */}
           </p>
           <p>
-            My first experience with programming was when i was 13, i was
+            My first experience with programming was when I was 13, i was
             fascinated with mobile games like{" "}
-            <a href="https://en.wikipedia.org/wiki/Temple_Run" target="_blank" rel="noopener" className="text-orange-500 hover:underline">
+            <a href="https://en.wikipedia.org/wiki/Temple_Run" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">
               Temple run
             </a>{" "}
-            and i decided i wanted to build computer games. A family friend
+            and I decided I wanted to build computer games. A family friend
             introduced me to the basics of python. But that didn't last.
           </p>
           <p>
-            Years later, i decided to try learning Html and Css, which seem to
-            click, then i started learning javascript. It felt really cool being able to create websites.
+            Years later, I decided to try learning Html and Css, which seem to
+            click, then I started learning javascript. It felt really cool being able to create websites.
           </p>
           <p>
-            Since then i have been improving my skills. I attended a boot camp
-            after secondary school where i learnt Python and C#. And in 2020 i
+            Since then I have been improving my skills. I attended a boot camp
+            after secondary school where I learnt Python and C#. And in 2020 i
             was awarded a scholarship to study to full-stack development at{" "}
-            <a href="https://openclassrooms.com/en/" target="_blank" rel="noopener" className="text-orange-500 hover:underline">
+            <a href="https://openclassrooms.com/en/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:underline">
               Openclassrooms
             </a>{" "}
             for 12 months by Facebook due to my performance in the facebook
             developer circles training.
           </p>
           <p>
-            I'm currently seeking a role where i can grow and use my skills to help a
+            I'm currently seeking a role where I can grow and use my skills to help a
             company achieve their goals.
           </p>
         </div>

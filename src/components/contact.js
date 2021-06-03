@@ -23,7 +23,7 @@ function Contact() {
             <a
               className="font-bold text-2xl text-yellow block"
               href="https://www.linkedin.com/in/tejumade-adetunji"
-              target="_blank" rel="noopener"
+              target="_blank" rel="noopener noreferrer"
             >
               LINKEDIN
             </a>
@@ -31,14 +31,14 @@ function Contact() {
             <a
               className="font-bold text-2xl text-yellow m-12 block"
               href="https://github.com/AdetunjiTejumade"
-              target="_blank" rel="noopener"
+              target="_blank" rel="noopener noreferrer"
             >
               GITHUB
             </a>
             <a
               className="font-bold text-2xl text-yellow m-12 block"
               href="https://twitter.com/Tejumade_"
-              target="_blank" rel="noopener"
+              target="_blank" rel="noopener noreferrer"
             >
               TWITTER
             </a>
