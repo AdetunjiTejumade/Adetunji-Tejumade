@@ -25,8 +25,8 @@ function Home() {
                 </Link>
               </li>
               <li>
-                <Link to="/works" className="bg-yellow-600 mr-3 px-5 py-2">
-                  Works
+                <Link to="/projects" className="bg-yellow-600 mr-3 px-5 py-2">
+                  Projects
                 </Link>
               </li>
               <li>

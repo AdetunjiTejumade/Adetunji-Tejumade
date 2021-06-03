@@ -23,7 +23,7 @@ function NavBar() {
           <div className="overlay-content font-extrabold text-3xl">
             <Link to="">Home </Link>
             <Link to="/about">About</Link>
-            <Link to="/works">Works</Link>
+            <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
             {/* TODO change font type */}
           </div>
@@ -39,8 +39,8 @@ function NavBar() {
           ABOUT
         </Link>
 
-        <Link to="/works" className="mr-5">
-          WORKS
+        <Link to="/projects" className="mr-5">
+          PROJECTS
         </Link>
 
         <Link to="/contact" className="mr-5">

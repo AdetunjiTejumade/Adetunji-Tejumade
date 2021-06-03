@@ -8,7 +8,7 @@ import item_2 from "../images/img_03.png";
 import item_3 from "../images/img_02.png";
 import Footer from "./footer";
 
-function Works() {
+function Projects() {
   return (
     <div>
       <Header></Header>
@@ -88,4 +88,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default Projects;

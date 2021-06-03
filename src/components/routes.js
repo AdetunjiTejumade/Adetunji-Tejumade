@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 
 import Home from "./home";
 import About from "./about.js";
-import Works from "./works";
+import Projects from "./projects";
 import Contact from "./contact";
-import HelpingHands from "./works/work_1"
-import MoveAndGroove from "./works/work_2"
-import BoulderBikeTour from "./works/work_3"
+import HelpingHands from "./projects/work_1"
+import MoveAndGroove from "./projects/work_2"
+import BoulderBikeTour from "./projects/work_3"
 
 import { Switch, Route, useLocation } from "react-router-dom";
 
@@ -40,8 +40,8 @@ function Routes() {
         <BoulderBikeTour />
       </Route>
 
-      <Route path="/works">
-        <Works />
+      <Route path="/projects">
+        <Projects />
       </Route>
 
       <Route exact path="/">
