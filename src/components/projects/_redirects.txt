@@ -1,5 +1,0 @@
-/* /index.html 200
-
-/about
-/contact
-/projects
