@@ -10,6 +10,7 @@ import img_02 from "../../images/img_02.png";
 import img_02a from "../../images/img_02a.png";
 import img_02b from "../../images/img_02b.png";
 import img_02c from "../../images/img_02c.png";
+import img_02d from "../../images/img_02d.png";
 
 function BoulderBikeTour() {
   return (
@@ -35,15 +36,18 @@ function BoulderBikeTour() {
             <div>
               <img src={img_02a} alt={"A screenshot of the project"} />
             </div>
-            <div className="">
+            <div>
               <img src={img_02b} alt={"A screenshot of the project"} />
             </div>
-            <div className="">
-              <img src={img_02c} alt={"A screenshot of the project"}  />
+            <div>
+              <img src={img_02c} alt={"A screenshot of the project"} />
+            </div>
+            <div>
+              <img src={img_02d} alt={"A screenshot of the project"}  />
             </div>
           </Carousel>
         </div>
-        <section className="">
+        <section>
           <h1 className="capitalize text-3xl font-bold text-gray-200 my-3 montserrat">
             Techcnical bits{" "}
           </h1>
