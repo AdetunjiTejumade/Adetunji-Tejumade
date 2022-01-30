@@ -8,7 +8,7 @@ function About() {
       <Header />
       <div className="text-white mt-16 px-6 max-w-xl m-auto">
         <h1 className="text-3xl text-yellow">
-          HEY THERE, I'M TEJU- A WEB DEVELOPER
+          HEY THERE, I'M TEJU- A SOFTWARE ENGINEER
         </h1>
         <hr className="border-2 border-yellow-600 mt-3 mb-3 w-6 m-auto" />
         <div className="mt-12 text-white">
